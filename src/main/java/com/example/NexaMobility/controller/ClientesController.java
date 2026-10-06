@@ -28,6 +28,6 @@ public class ClientesController {
 
         return ResponseEntity
                 .status(HttpStatus.CREATED)
-                .body(Map.of("mensagem", "cliente cadastrado"));
+                .body(Map.of("mensagem", "cliente cadastrado!"));
     }
 }
